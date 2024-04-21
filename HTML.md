@@ -4,3 +4,5 @@ The declaration is not an `HTML` tag. It is an "information" to the browser abou
 `<!DOCTYPE html>` means we are using `HTML 5`.
 
 `HTML 5` is the newest version of `HTML`. It brings some new features like semantic tags. It also increases the ==**SEO**== capability.
+
+### 2. What are **sematic tags** in HTML?
