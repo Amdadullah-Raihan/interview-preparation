@@ -1,7 +1,9 @@
 .circle {
   width: 100px;
   height: 100px;
-  border: 2px solid slateblue;
+  /* border: 2px solid slateblue; */
   border-radius: 50%;
   position: fixed;
+  background-color: red;
+  opacity: 0.5;
 }
