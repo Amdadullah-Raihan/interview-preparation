@@ -1,8 +1,30 @@
-### 1. What is Doctype in HTML?
+### Question - 1:
+
+**What is Doctype in HTML?**
 
 The declaration is not an `HTML` tag. It is "information" to the browser about what **document type** to expect. It tells the browser which version of the `HTML` we are using.
 `<!DOCTYPE html>` means we are using `HTML 5`.
 
 `HTML 5` is the newest version of `HTML`. It brings some new features like semantic tags. It also increases the **SEO** capability.
 
-### 2. What are ==sematic tags== in HTML?
+### Question - 2:
+
+**What are semantic tags in HTML?**
+
+### Answer:
+
+Semantic tags in HTML are elements that carry meaning, providing information about the content they enclose. Unlike non-semantic tags like `<div>` and `<span>`, which primarily serve as generic containers, semantic tags convey the structural and logical meaning of the content within them.
+
+Some commonly used semantic tags include:
+
+- `<header>`: Represents the introductory content of a section or page.
+- `<nav>`: Defines a section of navigation links.
+- `<main>`: Specifies the main content of a document.
+- `<article>`: Represents a self-contained piece of content, such as a blog post or article.
+- `<section>`: Defines a thematic grouping of content within a document.
+- `<aside>`: Represents content related to the primary content, such as sidebars or pull quotes.
+- `<footer>`: Represents the footer of a section or page.
+
+Using semantic tags not only makes the HTML code more readable and understandable for developers but also provides valuable information to search engines and assistive technologies, improving accessibility and search engine optimization (SEO) of the web page.
+
+In summary, semantic tags in HTML play a crucial role in structuring and organizing web content, enhancing both human comprehension and machine understanding.
