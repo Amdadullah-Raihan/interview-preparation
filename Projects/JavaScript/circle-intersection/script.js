@@ -1,16 +1,22 @@
 document.addEventListener("click", (e) => {
-  let circleDetails = [];
+  const circleDetails = [];
 
-  let x = e.clientX;
-  let y = e.clientY;
+  const x = e.clientX;
+  const y = e.clientY;
   circleDetails.push({ x, y });
+
+  console.log("1", circleDetails[1]);
   // console.log("x-co-ordinates: ", e.clientX, "y-co-ordinate: ", e.clientY);
 
   const circle = document.createElement("div");
 
+  const radius = Math.random() * (100 - 50) + 50;
+
   circle.classList.add("circle");
-  circle.style.marginLeft = x - 55 + "px";
-  circle.style.marginTop = y - 55 + "px";
+  circle.style.width = radius * 2 + "px";
+  circle.style.height = radius * 2 + "px";
+  circle.style.marginLeft = x - radius + "px";
+  circle.style.marginTop = y - radius + "px";
   document.body.appendChild(circle);
 
   console.log(circleDetails);
